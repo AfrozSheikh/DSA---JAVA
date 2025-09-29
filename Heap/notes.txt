@@ -1,0 +1,32 @@
+
+A heap is a complete binary tree where:
+
+Max-Heap: The value of a parent node is greater than or equal to the values of its children.
+
+Min-Heap: The value of a parent node is less than or equal to the values of its children.
+
+Complete binary tree: all levels fully filled except possibly the last, filled from left to right.
+
+Usually implemented using arrays, not pointers.
+
+For a node at index i (0-based):
+
+Left child: 2*i + 1
+
+Right child: 2*i + 2
+
+Parent: (i-1)/2
+
+Heap Operations:
+
+insert	-	O(log n)
+extractMax / extractMin	-	O(log n)
+peek -	O(1)
+Build heap from array -	O(n)
+
+
+ADV. -
+skip using pointers 
+memory efficient
+
+Heapify :-process of adjusting the subtree to follow the heap rules.
